@@ -1,0 +1,24 @@
+{
+    "name": "parallax-point",
+    "version": "1.0.0",
+    "description": "Multiplayer sandbox game with first-person perspective, physics, and dynamic object manipulation.",
+    "author": "Daniel Yu",
+    "license": "MIT",
+    "type": "module",
+    "scripts": {
+        "start": "npx serve .",
+        "test": "vitest",
+        "test:unit": "vitest tests/unit",
+        "test:integration": "vitest tests/integration",
+        "lint": "eslint src",
+        "format": "prettier --write \"src/**/*.js\" \"tests/**/*.js\""
+    },
+    "devDependencies": {
+        "eslint": "^8.57.0",
+        "prettier": "^3.3.3",
+        "vitest": "^1.6.0"
+    },
+    "dependencies": {
+        "three": "^0.128.0"
+    }
+}
